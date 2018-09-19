@@ -1,0 +1,25 @@
+.header{
+    background-color: gray;
+    overflow: hidden;
+    position: sticky;
+    font-family: sans-serif;
+}
+
+.header a{
+    float: right;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.header a.active{
+    background-color: aliceblue;
+    color: black;
+}
